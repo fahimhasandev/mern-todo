@@ -8,12 +8,13 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node backend/server.js",
-		"sever": "nodemon backend/server.js"
+		"server": "nodemon backend/server.js"
 	},
 	"dependencies": {
 		"colors": "^1.4.0",
 		"dotenv": "^17.3.1",
 		"express": "^5.2.1",
+		"express-async-handler": "^1.2.0",
 		"mongoose": "^9.2.1"
 	},
 	"devDependencies": {
